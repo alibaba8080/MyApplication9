@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageButton
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="right"
+        android:id="@+id/imageButton1"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:background="@drawable/icon_e_d"/>
+
+    <RelativeLayout
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle_null">
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:maxLength="15"
+            android:background="#00000000"
+            android:textColor="#FFB700"
+            android:textSize="30dp"
+            android:hint="账号"
+            android:textColorHint="#7aFFFFFF"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/textView1"
+            android:layout_toEndOf="@+id/textView1" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="3dp"
+        android:background="@drawable/rectangle_null"
+        android:paddingTop="1dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:maxLength="15"
+            android:hint="密码"
+            android:textColorHint="#7aFFFFFF"
+            android:inputType="textPassword"
+            android:background="#00000000"
+            android:textColor="#FFB700"
+            android:textSize="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2" />
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <mysurfaceview.MyToggleButton
+            android:id="@+id/curstom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:switchMinWidth="10dp"
+            />
+
+        <TextView
+            android:layout_width="56dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="记住账号"
+            android:textColor="#FFB700"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#4a00CDFF"
+        android:text="登录"
+        android:textColor="#9aFFFFFF"
+        android:textSize="16sp"/>
+</LinearLayout>
+</RelativeLayout>
+
