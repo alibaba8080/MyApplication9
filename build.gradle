@@ -15,6 +15,7 @@ buildscript {
 
 allprojects {
     repositories {
+        google()//新增的
         jcenter()
     }
 }
