@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.administrator.myapplication">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication">
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS"/>
@@ -13,7 +14,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".Activity_0_0">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,11 +28,12 @@
         <activity android:name=".MainActivity_1_2" />
         <activity android:name=".MainActivity_1_3" />
         <activity android:name=".MainActiviyi_2_1" />
-        <activity android:name="images.ImageActivity1" />
-        <activity android:name="images.ImageActivity2" />
+        <activity android:name="images.ImageActivity1"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name="images.ImageActivity2"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:name="music.MusicActivity"/>
         <activity android:name="music.MyMusic"/>
-        <activity android:name="music.MyActivity" />
 
 
     </application>

@@ -12,7 +12,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
-import com.example.administrator.myapplication.R;
+import com.example.myapplication.R;
 
 import java.util.HashMap;
 import java.util.List;
@@ -32,6 +32,7 @@ public class MusicActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.music_activity);
+        list.clear();
         listView=(ListView) findViewById(R.id.listView);
         listView.setOnItemClickListener(new OnItemClickListener() {
 

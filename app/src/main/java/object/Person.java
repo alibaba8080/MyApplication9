@@ -11,11 +11,6 @@ public class Person {
 	public void setBoy(boolean boy) {
 		this.boy = boy;
 	}
-
-
-
-
-
 	public String getName() {
 		return name;
 	}

@@ -8,7 +8,7 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.example.administrator.myapplication.R;
+import com.example.myapplication.R;
 
 
 /**

@@ -16,7 +16,7 @@ import android.widget.TextSwitcher;
 import android.widget.TextView;
 import android.widget.ViewSwitcher;
 
-import com.example.administrator.myapplication.R;
+import com.example.myapplication.R;
 
 
 /**

@@ -1,4 +1,4 @@
-package com.example.administrator.myapplication;
+package com.example.myapplication;
 
 
 import android.app.Activity;
@@ -21,16 +21,19 @@ public class Activity_0_0 extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_0_0);
         imageView1 = (ImageView) findViewById(R.id.imageView1);
-        MyAnimation animation = new MyAnimation(this);
+//        MyAnimation animation = new MyAnimation(this);
 //        animation.startAnimation("bg_",1,1,3000);
-        animation.alphaAnimation(imageView1,4000);
-        new Handler().postDelayed(new Runnable(){
-
-            @Override
-            public void run() {
-                start();
-            }
-        },2500 );
+//        animation.alphaAnimation(imageView1,4000);
+        imageView1.animate()
+                .setDuration(4000)
+                .alpha(1);
+//        new Handler().postDelayed(new Runnable(){
+//
+//            @Override
+//            public void run() {
+//                start();
+//            }
+//        },2500 );
 
     }
 

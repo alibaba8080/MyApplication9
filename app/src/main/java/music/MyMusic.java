@@ -18,7 +18,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.administrator.myapplication.R;
+import com.example.myapplication.R;
 
 import util.DataUtil;
 import util.ScrollTextView;
