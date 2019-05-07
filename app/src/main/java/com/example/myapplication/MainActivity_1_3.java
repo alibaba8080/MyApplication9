@@ -14,7 +14,7 @@ import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 import android.widget.Toast;
 
-import dbhelper.DBHelper;
+import dao.DBHelper;
 import object.Admini;
 import object.Person;
 
