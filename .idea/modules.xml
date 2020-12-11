@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidStudioProjects-MyApplication9.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidStudioProjects-MyApplication9.iml" group="MyApplication9" />
       <module fileurl="file://$PROJECT_DIR$/MyApplication9.iml" filepath="$PROJECT_DIR$/MyApplication9.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MyApplication9.iml" filepath="$PROJECT_DIR$/MyApplication9.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MyApplication9-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MyApplication9-app.iml" group="MyApplication9/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
